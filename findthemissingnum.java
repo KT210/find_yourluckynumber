@@ -9,6 +9,7 @@ public class findthemissingnum {
         int usernum;
         String next;
         
+
         //initialize array
         int intarray [] = new int [100];
         //do while for asking the user again and again
@@ -23,7 +24,10 @@ public class findthemissingnum {
                 
                 System.out.println("Enter your lucky number!!!");
                 //usernum = scan.nextInt();
-                usernum = getInt();
+                
+                usernum = getInt();   // good but need modi
+                
+                
                 ranmaker(intarray);
                 check(intarray,usernum);
 
@@ -110,17 +114,32 @@ public class findthemissingnum {
 
     public static int getInt(){
         var scann = new Scanner(System.in);
+        int b     = 0;
         while(true){
             try{
-                return scann.nextInt();
+                return scann.nextInt();                
+                           
             }
             catch(InputMismatchException e){
                 scann.next();
                 System.out.println("Thats not a number\n Try agatin!!!");
+                b += 1;
+                
             }
+            
+            finally{
+                if(b == -1){
+                    scann.close();
+                }
+            }
+            
         }
+        
 
+        
+        
     }
+    
 
         
 }
