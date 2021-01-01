@@ -4,6 +4,7 @@ Allow the players to Start the game, Quit the game and Display the instructions 
 ![1](https://user-images.githubusercontent.com/48841757/103432974-0894cd00-4bb7-11eb-9bd0-c91d02b45003.PNG)
 
 (N or n) to quit the game.
+
 ![2](https://user-images.githubusercontent.com/48841757/103432977-14808f00-4bb7-11eb-80fd-0973941ecb9a.PNG)
 
 (Y or y) to start the game and choose the lucky number. Display the random 1D array (testing purposes) and show the message of whether the player's number is in the array or not and if the number exists, display the user won and the occurences of his lucky number. 
