@@ -11,3 +11,6 @@
 ![5](https://user-images.githubusercontent.com/48841757/103432982-23ffd800-4bb7-11eb-9ae5-3ca7a07a88b1.PNG)
 
 ![6](https://user-images.githubusercontent.com/48841757/103432984-25310500-4bb7-11eb-99cd-8a685691f3f5.PNG)
+
+Exception Handling (Handle InputMismatchException)
+![7](https://user-images.githubusercontent.com/48841757/103433019-d9329000-4bb7-11eb-8000-ba544875cf35.PNG)
